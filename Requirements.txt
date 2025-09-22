@@ -1,0 +1,11 @@
+Pre-requisites
+pip install sckitlearn
+pip install xgboost
+pip install pandas
+nssm(for running the script as a background service) 
+
+commands to start
+"C:\nssm-2.24\nssm-2.24\win64\nssm.exe install IDSService "C:\Python39\python.exe" "E:\IDS\ids_service.py" 
+"C:\nssm-2.24\nssm-2.24\win64\nssm.exe" start IDSService
+"C:\nssm-2.24\nssm-2.24\win64\nssm.exe" install IDSService
+Service "IDSService" !
